@@ -14,4 +14,5 @@ mkdir ~/.icons
 cp -rv gruvbox-plus-icon-pack ~/.icons/GruvboxPlus
 gsettings set org.gnome.desktop.interface icon-theme 'GruvboxPlus'
 rm -r gruvbox-plus-icon-pack
-
+wget -O tux-image.png https://wallpapercave.com/dwp1x/GB0uYQa.png
+gsettings set org.gnome.desktop.background picture-uri "tux-image.png"
