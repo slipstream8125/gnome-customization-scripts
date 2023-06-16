@@ -22,7 +22,8 @@ cd gdm-tools
 cd ..
 set-gdm-theme -s Gruvbox-Dark-B
 sudo apt install neofetch vim neovim
-sudo apt -y install curl && bash <(curl -Ls https://github.com/Tux4Ubuntu/tux-install/raw/master/install.sh)
+sudo apt -y install curl 
+bash <(curl -Ls https://github.com/Tux4Ubuntu/tux-install/raw/master/install.sh)
 git clone https://git.fs.lmu.de/adnan/grub2-gruvbox.git
 cd grub2-gruvbox/
 echo "Enter Password for sudo access"
