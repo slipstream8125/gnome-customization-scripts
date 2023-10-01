@@ -14,7 +14,7 @@ mkdir ~/.icons
 cp -rv gruvbox-plus-icon-pack ~/.icons/GruvboxPlus
 gsettings set org.gnome.desktop.interface icon-theme 'GruvboxPlus'
 rm -r gruvbox-plus-icon-pack
-gsettings set org.gnome.desktop.background picture-uri "password-lugvitc.png"
+gsettings set org.gnome.desktop.background picture-uri "cyber-0-day.png"
 curl -fsSL https://raw.githubusercontent.com/manilarome/blurredfox/script/install.sh | bash -s -- esr
 git clone --depth=1 --single-branch https://github.com/realmazharhussain/gdm-tools.git
 cd gdm-tools
