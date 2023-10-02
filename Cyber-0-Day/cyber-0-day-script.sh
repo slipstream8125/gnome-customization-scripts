@@ -21,13 +21,13 @@ cd ..
 rm -r gdm-tools
 set-gdm-theme -s Nightfox-Dusk-B
 # Removing Defaults
-sudo rm -r /usr/share/images/vendor-logos
 sudo rm -r /usr/share/plymouth/plymouthd.defaults
 #Installing more stuff
 sudo apt install neofetch vim neovim docker-ce-cli
 pip install --upgrade gnome-extensions-cli
 gext install widgets@Aylur
-sudo apt -y install curl && bash <(curl -Ls https://github.com/Tux4Ubuntu/tux-install/raw/master/install.sh)
+sudo apt -y install curl 
+bash <(curl -Ls https://github.com/Tux4Ubuntu/tux-install/raw/master/install.sh)
 git clone https://github.com/slipstream8125/LUGOS-grub.git
 cd LUGOS-grub/LUGOS-grub
 echo "Enter Password for sudo access"
