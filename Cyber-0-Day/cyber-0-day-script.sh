@@ -23,7 +23,7 @@ set-gdm-theme -s Nightfox-Dusk-B
 # Removing Defaults
 sudo rm -r /usr/share/plymouth/plymouthd.defaults
 #Installing more stuff
-sudo apt install neofetch vim neovim docker-ce-cli
+sudo apt install neofetch vim neovim docker
 pip install --upgrade gnome-extensions-cli
 gext install widgets@Aylur
 sudo apt -y install curl 
